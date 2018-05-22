@@ -24,7 +24,7 @@
         <!--jdbc的数据库连接 -->
         <jdbcConnection
                 driverClass="com.mysql.jdbc.Driver"
-                connectionURL="jdbc:mysql://127.0.0.1:3306/bbm"
+                connectionURL="jdbc:mysql://127.0.0.1:3306/fbs"
                 userId="root"
                 password="123456">
         </jdbcConnection>
@@ -92,7 +92,7 @@
             domainObjectName 给表对应的 model 起名字
             注意：大小写敏感问题。
          -->
-        <table tableName="t_bbm_article_info" domainObjectName="ArticlePo" enableCountByExample="false" enableUpdateByExample="false"
+        <table tableName="fbs.t_bbm_article_info" domainObjectName="ArticlePo" enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
 
